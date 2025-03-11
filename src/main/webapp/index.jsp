@@ -12,5 +12,6 @@
 </head>
 <body>
   <a href="page1.jsp">page01</a>
+  <a href="page2.jsp">page02</a>
 </body>
 </html>
