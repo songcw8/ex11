@@ -60,7 +60,8 @@
         prompt = "프롬프트가 없습니다";
         answer = "프롬프트를 제대로 입력해주세요!";
     } else {
-        prompt += " no markdown, under 300 character, use korean language, nutshell please";
+        //prompt += " no markdown, under 300 character, use korean language, nutshell please";
+        prompt += " no markdown, under 300 character, use korean language";
         Map<String, List<Map<String, List<Map<String, String>>>>> geminiMap = new HashMap<>();
         List<Map<String, String>> parts = List.of(new HashMap<>());
         parts.get(0).put("text", prompt);
